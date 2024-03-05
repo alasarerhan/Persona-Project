@@ -45,7 +45,7 @@ import pandas as pd
 
 # Read persona.csv file to start working on the data set and have a quick look
 
-df = pd.read_csv('datasets/persona.csv')
+df = pd.read_csv('file_path/persona.csv')
 df.info()
 
 # Find the average earnings in the breakdown of COUNTRY, SOURCE, SEX, AGE and sort the output by price
